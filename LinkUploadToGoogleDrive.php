@@ -39,7 +39,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST" || isset($_GET['code']) || (isset($_SESS
 	$client->setClientId('512089944702-dobkd2ujpiho7d35ab4biub9bs3kf266.apps.googleusercontent.com');
 	$client->setClientSecret('hwnPhHlaJekw1hSdWOYbclqh');
 	//set the URL of this same file & set the same url in google developer console.
-	$client->setRedirectUri('<URL_OF_THIS_PAGE_MUST_BE_SAME_TO_Redirect_URIs_IN_GOOGLE_DEVELOPER_CONSOLE>');
+	$client->setRedirectUri('https://remoteupload.herokuapp.com//LinkUploadToGoogleDrive.php');
 	$client->setScopes(array('https://www.googleapis.com/auth/drive.file'));
 	
 	
