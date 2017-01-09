@@ -10,8 +10,8 @@
 				All Links
 		---------------------------------------------------------->
 		
-		1. <a href="LinkUploadToServer.php">Download file to the server with a link</a><br><br>
-		2. <a href="FormUploadToGoogleDrive.php">Upload file to Google Drive</a><br><br>
+		
+		1. <a href="LinkUploadToGoogleDrive.php">Upload file to Google Drive</a><br><br>
 			
 		</div>
 	</body>
